@@ -1,11 +1,16 @@
+> NOTE: this fork is to POC to understand if possible upgrade to PREDIS 2.3.
+> Use at your own risk.
+
+
 # Redis for CodeIgniter
 - Is possible to configure and use multiple redis servers in a CodeIgniter project
 - Multiple servers configurations with one configuration file
 - Multiple servers by project environment
 
 ## Installation
-If you are using composer, type: `composer require maykonn/codeigniter-predis` or if not:
+If you are using composer, type: `composer require gdakuzak/codeigniter-predis`
 
+If not:
 1) Download the code as ZIP in `Clone or download` button
 2) Extract the downloaded zip into your `application/libraries/` directory
 3) Rename the extracted directory to `application/libraries/codeigniter-predis`
