@@ -1,22 +1,26 @@
 {
   "description": "The CodeIgniter Redis package",
-  "name": "maykonn/codeigniter-predis",
+  "name": "gdakuzak/codeigniter-predis",
   "type": "library",
   "keywords": ["nosql", "redis", "predis", "codeigniter", "ci", "codeigniter framework"],
   "license": "MIT",
   "support": {
-    "source": "https://github.com/Maykonn/codeigniter-predis/issues"
+    "source": "https://github.com/gdakuzak/codeigniter-predis/issues"
   },
   "authors": [
     {
       "name": "Maykonn Welington Candido",
       "email": "maykonn@outlook.com",
       "homepage": "https://www.linkedin.com/in/maykonnwcandido"
+    },
+    {
+      "name": "Guilherme Makoto",
+      "email": "gdakuzak@gmail.com"
     }
   ],
   "require": {
     "php": ">=5.4.0",
-    "predis/predis": "1.1.*@dev"
+    "predis/predis": "^2.3"
   },
   "autoload": {
     "psr-4": {"CI_Predis\\": "src/"}
